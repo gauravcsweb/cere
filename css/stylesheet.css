@@ -656,6 +656,17 @@ section.footer ul li {
     padding: 125px 0 125px 0;
 }
 
+.enterprise-heading {
+    font-family: Sora;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
 .enterprise-mobile-img {
     display: none;
 }
@@ -692,6 +703,10 @@ section.footer ul li {
 
 .ceo-quote {
     padding: 155px 0 125px 0;
+}
+
+.ceo-quote-left-image {
+    width: 100%;
 }
 
 .ceo-overlay-icon {
@@ -778,10 +793,6 @@ section.footer ul li {
     padding-bottom: 120px;
 }
 
-.saas-defi-row1 {
-    /* margin-bottom: 15px; */
-}
-
 .saas-defi-inner-col {
     width: 39% !important;
     padding-top: 140px;
@@ -822,13 +833,37 @@ section.footer ul li {
     text-align: center;
 }
 
+.saas-defi-icon-row2 {
+    padding: 0 20px;
+    margin: 65px 0 0 0;
+}
+
 .saas-defi-icon-row1 span {
     padding: 0 40px;
+    margin-bottom: 25px;
 }
+
+.saas-defi-icon-row2 span {
+    padding: 0 49px;
+}
+
+
+/* .saas-defi-icon-row1 span img {
+    margin-bottom: 50px;
+} */
 
 .cere-layer {
     background-color: #161d30;
     padding: 125px 0;
+}
+
+.cere-layer-row1 {
+    margin-bottom: 50px;
+}
+
+.cere-layer-row2 {
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .cere-layer div h1 {
@@ -1229,5 +1264,287 @@ section.footer ul li {
     .how-it-works h1 {
         font-weight: 500;
         font-size: 31px;
+    }
+    .solving-nft-col3 {
+        display: none;
+    }
+    .enterprise-desktop-img {
+        display: none;
+    }
+    .enterprise-mobile-img {
+        display: block;
+        max-width: 100%;
+    }
+    .solving-nft-col1 {
+        font-size: 16px;
+        float: left;
+    }
+    .solving-nft-title {
+        font-size: 24px !important;
+        line-height: 35px !important;
+    }
+    .solving-nft-row3 {
+        padding: 0 22px;
+    }
+    .solving-nft-row3 p {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        padding-top: 16px !important;
+    }
+    .key-data-btn {
+        font-size: 16px !important;
+        padding: 10px 10px;
+        width: 61%;
+    }
+    .solving-nft-col2 {
+        margin-right: 0;
+        float: left;
+        width: 93% !important;
+        padding: 9px 10px 0 18px !important;
+    }
+    .enterprise-img-bottom-text {
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+        top: 0;
+        padding-top: 15px;
+        margin-bottom: 35px;
+    }
+    .enterprise-heading {
+        top: 0px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .enterprise {
+        padding: 70px 0 80px;
+    }
+    .enterprise-inner-col {
+        margin-bottom: 20px;
+        background-color: #21283a;
+        padding: 33px;
+        height: 220px;
+    }
+    .enterprise-inner-col-left-img {
+        float: left;
+        width: 25% !important;
+    }
+    .enterprise-inner-col-right-content {
+        float: left;
+        width: 75% !important;
+    }
+    .enterprise-row1 {
+        padding: 0 20px;
+    }
+    .ceo-quote {
+        padding: 70px 25px;
+    }
+    .ceo-quote-left-image {
+        width: 72%;
+    }
+    .ceo-overlay-icon {
+        margin: -40px 20px 0 auto;
+    }
+    .quote-left-name {
+        right: 0;
+        left: 29px;
+        font-size: 40px;
+    }
+    .quote-left-position {
+        right: 0;
+        left: 140px;
+        max-width: 52%;
+    }
+    .quote-left-company-image {
+        left: 140px;
+        max-width: 52%;
+    }
+    .quote-right-text {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 31px;
+        padding-left: 5px;
+    }
+    .in-the-press {
+        padding-top: 70px;
+        padding-bottom: 115px;
+    }
+    .in-the-press-title {
+        margin-bottom: 40px;
+    }
+    .in-the-press-icon {
+        margin-bottom: 25px !important;
+    }
+    .in-the-press-icon span img {
+        margin-bottom: 10px;
+    }
+    .saas-defi {
+        padding-bottom: 60px;
+    }
+    .saas-defi-inner-row {
+        width: 90%;
+    }
+    .saas-defi-inner-col {
+        width: 100% !important;
+        padding-top: 25px;
+    }
+    .saas-defi-inner-col h1 {
+        padding-top: 0;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .saas-defi-inner-col img {
+        padding-top: 100px;
+        max-width: 210px;
+    }
+    .saas-defi-icon-row1,
+    .saas-defi-icon-row2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 !important;
+    }
+    .saas-defi-icon-row1 span img {
+        display: inline-block;
+        width: 100%;
+    }
+    .saas-defi-icon-row2 span img {
+        display: inline-block;
+        width: 75px;
+    }
+    .saas-defi-icon-row1 span {
+        max-width: 45%;
+    }
+    .saas-defi-icon-row2 span {
+        max-width: 50%;
+        margin-bottom: 25px;
+    }
+    .cere-layer {
+        padding: 70px 0;
+    }
+    .cere-layer-row1 h1 {
+        font-size: 39px !important;
+        width: 87%;
+        line-height: 48px !important;
+    }
+    .cere-layer-row1 p {
+        font-size: 22px !important;
+        font-weight: 300;
+        margin-bottom: 29px;
+    }
+    .cere-layer-container {
+        padding: 0 30px !important;
+    }
+    .cere-layer-row2 img {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .cere-layer-inner-text {
+        font-size: 38px;
+        line-height: 50px;
+        padding: 0 0 0 18px !important;
+    }
+    .cere-layer-box-innner-col1 {
+        width: 15% !important;
+        float: left;
+    }
+    .cere-layer-box-innner-col2 {
+        width: 85% !important;
+        float: left;
+        padding-left: 50px !important;
+    }
+    .cere-layer-box-innner-col {
+        padding: 30px;
+        height: 305px;
+        margin-bottom: 20px;
+    }
+    .backed-by-icon-row {
+        float: left;
+        width: 56%;
+        margin-bottom: 0;
+    }
+    .backed-by-col1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .backed-by-icon-row img {
+        margin-bottom: 25px;
+    }
+    .backed-by-title {
+        margin-bottom: 50px;
+    }
+    .backed-by {
+        padding: 60px 0 45px 0;
+    }
+    .cere-for-enterprise {
+        padding: 70px 0;
+    }
+    .cere-for-enterprise-img-desktop {
+        display: none;
+    }
+    .cere-for-enterprise-img-mobile {
+        display: block;
+        max-width: 100%;
+    }
+    .cere-for-enterprise-heading {
+        font-size: 32px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+        width: 86% !important;
+    }
+    .cere-for-enterprise-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .cere-for-enterprise-container {
+        padding: 0 30px !important;
+    }
+    .cere-for-enterprise-row {
+        margin-bottom: 40px;
+    }
+    .use-cases {
+        padding: 75px 0;
+    }
+    .use-cases-left-heading {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .use-cases-left-title {
+        font-size: 19px;
+        line-height: 32px;
+    }
+    .use-cases-container {
+        padding: 0 28px !important;
+    }
+    .use-case-right-content-img,
+    .use-case-right-content-heading {
+        text-align: center;
+    }
+    .use-case-right-content-img {
+        max-height: 225px;
+        margin-bottom: 10px;
+    }
+    .use-case-right-content-heading {
+        font-size: 24px;
+    }
+    .use-case-right-content {
+        margin-bottom: 50px;
+    }
+    .use-case-right-content-title {
+        margin-top: 15px;
+    }
+    .get-in-touch {
+        padding: 60px 0;
+    }
+    .get-in-touch-container {
+        padding: 0 30px !important;
+    }
+    .get-in-touch-left-heading {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .get-in-touch-left-text {
+        margin-bottom: 10px;
     }
 }
